@@ -45,5 +45,10 @@ public class Foco {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString() { // Este codigo se pone con insert code y le damos toString
+        return "Foco{" + "color=" + color + ", tipo=" + tipo + ", tamano=" + tamano + '}';
+    }
     
 }
