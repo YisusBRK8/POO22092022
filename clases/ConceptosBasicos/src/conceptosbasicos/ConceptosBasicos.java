@@ -35,8 +35,8 @@ public class ConceptosBasicos {
         Automovil miMustang=new Automovil("Ford", "Mustang", 2010, Color.yellow);
         System.out.println(miMustang);
         
-     // Automovil miAkura=new Automovil(marca, subMarca, 0, Color.yellow);
-        
+        Automovil miAkura=new Automovil("Akura", "NSX", 2013, Color.GRAY);
+        System.out.println(miAkura);
     }
     
 }
